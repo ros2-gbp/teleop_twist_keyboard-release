@@ -1,0 +1,26 @@
+From c95ff12b6444796ee643cc6fa42113c37f8952fe Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?= <steven@nuclearsandwich.com>
+Date: Sat, 1 Jul 2017 03:26:49 -0400
+Subject: [PATCH 2/2] Source environment in clean.
+
+We should still try to source the environment so the clean step works
+during binarydeb jobs.
+---
+ debian/rules.em | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index bab4eac..d953865 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -29,6 +29,7 @@ export @(var[0])=@(var[1])
+ override_dh_auto_clean:
+ 	# We don't have ament_python in the iamge that creates sourcedebs
+ 	# So for now we need to give a pass to dh_auto_clean invoking setup.py clean.
++	if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.sh"; fi && \
+ 	dh_auto_clean || true
+ 
+ override_dh_auto_configure:
+-- 
+2.7.4
+

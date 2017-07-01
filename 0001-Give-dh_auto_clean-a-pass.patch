@@ -1,7 +1,7 @@
-From 7b1bb1943bd38101b47e00fa0c4677799331f775 Mon Sep 17 00:00:00 2001
+From f533b73e101849905f33d7486758eae163944d1a Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Steven!=20Ragnar=C3=B6k?= <steven@nuclearsandwich.com>
 Date: Tue, 27 Jun 2017 16:23:31 -0400
-Subject: [PATCH] Give dh_auto_clean a pass.
+Subject: [PATCH 1/2] Give dh_auto_clean a pass.
 
 This is needed until python build deps are available at sourcedeb time.
 ---
