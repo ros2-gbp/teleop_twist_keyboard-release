@@ -1,0 +1,12 @@
+Source: ros-r2b2-teleop-twist-keyboard
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-r2b2-ament-copyright, python3-all (>= 3.5), ros-r2b2-ament-python, ros-r2b2-ament-pep257, dh-python, ros-r2b2-ament-flake8, ros-r2b2-ros-workspace
+Homepage: http://wiki.ros.org/teleop_twist_keyboard
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-teleop-twist-keyboard
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-r2b2-geometry-msgs, ros-r2b2-rclpy, ros-r2b2-ros-workspace
+Description: A robot-agnostic teleoperation node to convert keyboard commands to Twist messages.
