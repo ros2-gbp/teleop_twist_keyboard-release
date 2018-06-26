@@ -163,8 +163,7 @@ def main():
             twist.angular.z = th * turn
             pub.publish(twist)
 
-    except Exception:
-        e = sys.exc_info()[0]
+    except Exception as e:
         print(e)
 
     finally:
