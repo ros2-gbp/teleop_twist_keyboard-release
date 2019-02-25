@@ -1,3 +1,26 @@
+## teleop_twist_keyboard (crystal) - 2.2.0-0
+
+The packages in the `teleop_twist_keyboard` repository were released into the `crystal` distro by running `/usr/bin/bloom-release teleop_twist_keyboard --track crystal --rosdistro crystal` on `Mon, 25 Feb 2019 13:43:50 -0000`
+
+The `teleop_twist_keyboard` package was released.
+
+Version of package(s) in repository `teleop_twist_keyboard`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_keyboard.git
+- release repository: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+- rosdistro version: `2.1.1-1`
+- old version: `2.1.1-1`
+- new version: `2.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## teleop_twist_keyboard (crystal) - 2.1.1-1
 
 The packages in the `teleop_twist_keyboard` repository were released into the `crystal` distro by running `/usr/bin/bloom-release --rosdistro crystal --track crystal teleop_twist_keyboard` on `Fri, 07 Dec 2018 21:56:12 -0000`
