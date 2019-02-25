@@ -1,3 +1,8 @@
+2.2.0 (2019-02-25)
+------------------
+* changing QoS to default (`#18 <https://github.com/ros2/teleop_twist_keyboard/issues/18>`_) (`#19 <https://github.com/ros2/teleop_twist_keyboard/issues/19>`_)
+* Contributors: Chris Lalancette
+
 2.1.1 (2018-06-26)
 ------------------
 
