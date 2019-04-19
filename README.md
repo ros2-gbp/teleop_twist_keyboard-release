@@ -1,3 +1,26 @@
+## teleop_twist_keyboard (dashing) - 2.3.0-1
+
+The packages in the `teleop_twist_keyboard` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --rosdistro dashing --track dashing teleop_twist_keyboard` on `Fri, 19 Apr 2019 20:03:32 -0000`
+
+The `teleop_twist_keyboard` package was released.
+
+Version of package(s) in repository `teleop_twist_keyboard`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_keyboard.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.11`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.3`
+- vcstools version: `0.1.40`
+
+
 ## teleop_twist_keyboard (crystal) - 2.2.0-0
 
 The packages in the `teleop_twist_keyboard` repository were released into the `crystal` distro by running `/usr/bin/bloom-release teleop_twist_keyboard --track crystal --rosdistro crystal` on `Mon, 25 Feb 2019 13:43:50 -0000`
