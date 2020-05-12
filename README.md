@@ -1,3 +1,26 @@
+## teleop_twist_keyboard (foxy) - 2.3.2-1
+
+The packages in the `teleop_twist_keyboard` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy teleop_twist_keyboard` on `Tue, 12 May 2020 14:26:06 -0000`
+
+The `teleop_twist_keyboard` package was released.
+
+Version of package(s) in repository `teleop_twist_keyboard`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_keyboard.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## teleop_twist_keyboard (eloquent) - 2.3.2-1
 
 The packages in the `teleop_twist_keyboard` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --track eloquent --rosdistro eloquent teleop_twist_keyboard` on `Tue, 12 May 2020 14:21:11 -0000`
