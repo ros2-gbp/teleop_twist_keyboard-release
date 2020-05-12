@@ -1,3 +1,26 @@
+## teleop_twist_keyboard (dashing) - 2.3.2-1
+
+The packages in the `teleop_twist_keyboard` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --track dashing --rosdistro dashing teleop_twist_keyboard` on `Tue, 12 May 2020 14:18:50 -0000`
+
+The `teleop_twist_keyboard` package was released.
+
+Version of package(s) in repository `teleop_twist_keyboard`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_keyboard.git
+- release repository: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+- rosdistro version: `2.3.1-1`
+- old version: `2.3.1-1`
+- new version: `2.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## teleop_twist_keyboard (eloquent) - 2.3.1-1
 
 The packages in the `teleop_twist_keyboard` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --track eloquent --rosdistro eloquent teleop_twist_keyboard` on `Thu, 03 Oct 2019 20:43:37 -0000`
