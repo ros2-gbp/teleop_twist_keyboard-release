@@ -1,0 +1,76 @@
+ros-foxy-teleop-twist-keyboard (2.3.2-1focal) focal; urgency=high
+
+  * Add Windows support to teleop_twist_keyboard. (#24 <https://github.com/ros2/teleop_twist_keyboard/issues/24>)
+  * Contributors: Chris Lalancette
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 12 May 2020 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (2.3.1-1focal) focal; urgency=high
+
+  * Stop using deprecated APIs. (#22 <https://github.com/ros2/teleop_twist_keyboard/issues/22>)
+  * Contributors: Chris Lalancette
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Thu, 03 Oct 2019 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (2.3.0-1focal) focal; urgency=high
+
+  * changing QoS to default (#18 <https://github.com/ros2/teleop_twist_keyboard/issues/18>)
+  * Contributors: thorstink
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 19 Apr 2019 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (2.1.1-1focal) focal; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 26 Jun 2018 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (2.1.0-1focal) focal; urgency=high
+
+  * set zip_safe to avoid warning during installation (#14 <https://github.com/ros2/teleop_twist_keyboard/issues/14>)
+  * Update the maintainer to me. (#13 <https://github.com/ros2/teleop_twist_keyboard/issues/13>)
+  * fix data files install path (#12 <https://github.com/ros2/teleop_twist_keyboard/issues/12>)
+  * remove test_suite, add pytest as test_requires (#11 <https://github.com/ros2/teleop_twist_keyboard/issues/11>)
+  * use ros2 run to launch whichever the installation used (#8 <https://github.com/ros2/teleop_twist_keyboard/issues/8>)
+  * Fix teleop_twist_keyboard to have a setup.cfg. (#9 <https://github.com/ros2/teleop_twist_keyboard/issues/9>)
+  * Make sure to add teleop_twist_keyboard to ament index. (#6 <https://github.com/ros2/teleop_twist_keyboard/issues/6>)
+  * use OSI website as reference for license (#2 <https://github.com/ros2/teleop_twist_keyboard/issues/2>)
+  * ROS 2 port (#1 <https://github.com/ros2/teleop_twist_keyboard/issues/1>)
+  * Contributors: Adam Allevato, Austin, Chris Lalancette, Dirk Thomas, Mikael Arguedas
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 26 Jun 2018 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (0.6.1-1focal) focal; urgency=high
+
+  * Merge pull request #11 <https://github.com/ros-teleop/teleop_twist_keyboard/issues/11> from MatthijsBurgh/patch-1
+    Correct exception handling; Python3 print compatible
+  * import print from future
+  * Print python3 compatible
+  * correct Exception handling
+  * Merge pull request #7 <https://github.com/ros-teleop/teleop_twist_keyboard/issues/7> from lucasw/speed_params
+    set linear and turn speed via rosparams
+  * Using tabs instead of spaces to match rest of file
+  * set linear and turn speed via rosparams
+  * Contributors: Austin, Lucas Walter, Matthijs van der Burgh
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Wed, 02 May 2018 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (0.6.0-1focal) focal; urgency=high
+
+  * Better instruction formatting
+  * support holonomic base, send commmand with keyboard down
+  * Fixing queue_size warning
+  * Create README.md
+  * Update the description string in package.xml
+  * Contributors: Austin, Kei Okada, LiohAu, Mike Purvis, kk6axq, trainman419
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 21 Mar 2016 00:00:00 -0000
+
+ros-foxy-teleop-twist-keyboard (0.5.0-1focal) focal; urgency=high
+
+  * Initial import from brown_remotelab
+  * Convert to catkin
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 11 Feb 2014 00:00:00 -0000
+
+
