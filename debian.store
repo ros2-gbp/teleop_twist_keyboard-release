@@ -1,1 +1,1 @@
-{"base": "8984038", "parent": "debian/rolling/teleop_twist_keyboard", "previous": "57cf223", "trim": "", "trimbase": ""}
+{"base": "44c1001", "parent": "debian/galactic/teleop_twist_keyboard", "previous": "cc54005", "trim": "", "trimbase": ""}
