@@ -1,3 +1,26 @@
+## teleop_twist_keyboard (rolling) - 2.4.1-1
+
+The packages in the `teleop_twist_keyboard` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling teleop_twist_keyboard` on `Fri, 26 Sep 2025 13:28:14 -0000`
+
+The `teleop_twist_keyboard` package was released.
+
+Version of package(s) in repository `teleop_twist_keyboard`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_keyboard.git
+- release repository: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+- rosdistro version: `2.4.0-1`
+- old version: `2.4.0-1`
+- new version: `2.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## teleop_twist_keyboard (kilted) - 2.4.1-1
 
 The packages in the `teleop_twist_keyboard` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --track kilted --rosdistro kilted teleop_twist_keyboard` on `Fri, 26 Sep 2025 13:27:06 -0000`
