@@ -4,7 +4,7 @@ package_name = 'teleop_twist_keyboard'
 
 setup(
     name=package_name,
-    version='2.4.0',
+    version='2.4.1',
     packages=[],
     py_modules=[
         'teleop_twist_keyboard'
@@ -29,7 +29,9 @@ setup(
     description='A robot-agnostic teleoperation node to convert keyboard'
                 'commands to Twist messages.',
     license='BSD',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest'],
+    },
     entry_points={
         'console_scripts': [
             'teleop_twist_keyboard = teleop_twist_keyboard:main'
