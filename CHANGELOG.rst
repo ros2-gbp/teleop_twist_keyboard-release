@@ -1,3 +1,22 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package teleop_twist_keyboard
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2.4.1 (2025-09-26)
+------------------
+* replace tests_require with extra_require (`#38 <https://github.com/ros2/teleop_twist_keyboard/issues/38>`_)
+  * replace tests_require with extra_require
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
+* Set all parameters as read-only. (`#40 <https://github.com/ros2/teleop_twist_keyboard/issues/40>`_)
+  * Reject parameter updates.
+  While there are a number of parameters here that can be
+  set at startup, none of them can actually be configured
+  at runtime successfully.  Set them to read-only.
+* Add speed&turn parameters (`#34 <https://github.com/ros2/teleop_twist_keyboard/issues/34>`_)
+  * Add speed&turn parameters
+  Co-authored-by: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
+* Contributors: Arend-Jan van Hilten, Chris Lalancette, Plumezz
+
 2.4.0 (2024-03-08)
 ------------------
 * Fixes for flake8. (`#29 <https://github.com/ros2/teleop_twist_keyboard/issues/29>`_)
@@ -40,8 +59,6 @@
 
 0.6.1 (2018-05-02)
 ------------------
-* Merge pull request `#11 <https://github.com/ros-teleop/teleop_twist_keyboard/issues/11>`_ from MatthijsBurgh/patch-1
-  Correct exception handling; Python3 print compatible
 * import print from future
 * Print python3 compatible
 * correct Exception handling
